@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>gameshark.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\gameshark.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,12 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GlobalSuppressions.cs" />
-    <Compile Include="GetMD5.cs" />
-    <Compile Include="SignIn.cs">
+    <Compile Include="Service\GlobalSuppressions.cs" />
+    <Compile Include="Service\GetMD5.cs" />
+    <Compile Include="Users\SignIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SignIn.Designer.cs">
+    <Compile Include="Users\SignIn.Designer.cs">
       <DependentUpon>SignIn.cs</DependentUpon>
     </Compile>
     <Compile Include="About.cs">
@@ -63,14 +63,14 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
-    <Compile Include="Explorer.cs">
+    <Compile Include="Service\Explorer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Explorer.Designer.cs">
+    <Compile Include="Service\Explorer.Designer.cs">
       <DependentUpon>Explorer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Kostyl.cs" />
-    <Compile Include="Logger.cs" />
+    <Compile Include="Service\Kostyl.cs" />
+    <Compile Include="Service\Logger.cs" />
     <Compile Include="MainSeller.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,23 +83,23 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="SignUp.cs">
+    <Compile Include="Users\SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SignUp.Designer.cs">
+    <Compile Include="Users\SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserList.cs" />
-    <Compile Include="wReport.cs" />
-    <EmbeddedResource Include="SignIn.resx">
+    <Compile Include="Users\UserList.cs" />
+    <Compile Include="Service\wReport.cs" />
+    <EmbeddedResource Include="Users\SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Explorer.resx">
+    <EmbeddedResource Include="Service\Explorer.resx">
       <DependentUpon>Explorer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainSeller.resx">
@@ -108,7 +108,7 @@
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SignUp.resx">
+    <EmbeddedResource Include="Users\SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -137,9 +137,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="gameshark.ico" />
-    <Content Include="Resources\aw.jpg" />
-    <None Include="Resources\Снимок.PNG" />
+    <Content Include="Resources\gameshark.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
