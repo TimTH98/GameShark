@@ -41,18 +41,21 @@
             this.Магазин = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.таблица1BindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.Библиотека = new System.Windows.Forms.TabPage();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.таблица1BindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.таблица1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.чтотоИнтересноеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.тыкниСюдыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.Магазин.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.таблица1BindingSource1)).BeginInit();
             this.Библиотека.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.таблица1BindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.таблица1BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,10 +63,6 @@
             // 
             this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.менюToolStripMenuItem,
-            this.справкаToolStripMenuItem,
-            this.explorerToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -234,6 +233,24 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
+            // чтотоИнтересноеToolStripMenuItem
+            // 
+            this.чтотоИнтересноеToolStripMenuItem.Name = "чтотоИнтересноеToolStripMenuItem";
+            this.чтотоИнтересноеToolStripMenuItem.Size = new System.Drawing.Size(123, 20);
+            this.чтотоИнтересноеToolStripMenuItem.Text = "Что-то интересное";
+            // 
+            // тыкниСюдыToolStripMenuItem
+            // 
+            this.тыкниСюдыToolStripMenuItem.Name = "тыкниСюдыToolStripMenuItem";
+            this.тыкниСюдыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.тыкниСюдыToolStripMenuItem.Text = "Тыкни сюды";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Text = "<3";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -253,8 +270,8 @@
             this.tabControl1.ResumeLayout(false);
             this.Магазин.ResumeLayout(false);
             this.Магазин.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.таблица1BindingSource1)).EndInit();
             this.Библиотека.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.таблица1BindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.таблица1BindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -281,5 +298,8 @@
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.BindingSource таблица1BindingSource;
         private System.Windows.Forms.BindingSource таблица1BindingSource1;
+        private System.Windows.Forms.ToolStripMenuItem чтотоИнтересноеToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem тыкниСюдыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
     }
 }
