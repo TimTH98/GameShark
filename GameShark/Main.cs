@@ -138,12 +138,6 @@ namespace GameShark
         private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
         {
             
-            var images = new ImageList();
-            images.ImageSize = new Size(120, 45);
-
-            pixtureBox = new PictureBox();
-            images.Images.Add(Properties.Resources.aw);
-            pixtureBox.Image = images.Images[0];
         }
 
         private void SignUp_Closed(object sender, EventArgs e)

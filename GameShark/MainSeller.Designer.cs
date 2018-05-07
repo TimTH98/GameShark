@@ -183,14 +183,6 @@
             this.tabControl1.Size = new System.Drawing.Size(723, 300);
             this.tabControl1.TabIndex = 1;
             // 
-            // dataGridViewImageColumn1
-            // 
-            this.dataGridViewImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewImageColumn1.FillWeight = 304.5685F;
-            this.dataGridViewImageColumn1.HeaderText = "Image";
-            this.dataGridViewImageColumn1.Image = global::GameShark.Properties.Resources.Снимок;
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            // 
             // mainSellerBindingSource
             // 
             this.mainSellerBindingSource.DataSource = typeof(GameShark.MainSeller);
